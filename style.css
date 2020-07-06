@@ -147,7 +147,8 @@ a:hover {
 
 @media (max-width:991px) {
     .jumbotron:before {
-        content: ' ';
+        content: "";
+        display: block;
         height: 800px;
         width: 100%;
         background-size: cover;
@@ -160,7 +161,7 @@ a:hover {
         right: 0;
         left: 0;
         top: 0;
-       
+        background-attachment: fixed;
     }
 }
 
