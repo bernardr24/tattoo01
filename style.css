@@ -244,7 +244,7 @@ a:hover {
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:992px) {
     .img-services-bg {
         position: relative;
         width: 100%;
@@ -257,7 +257,7 @@ a:hover {
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:992px) {
     .img-services-bg::before {
         content: "";
         position: absolute;
