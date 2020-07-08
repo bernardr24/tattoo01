@@ -220,24 +220,53 @@ a:hover {
     padding-top: 40px;
 }
 
-.img-services-bg {
-    position: relative;
-    width: 100%;
-    display: flex;
-    background-image: url("./img/gallery/gallery05.jpg");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+@media (max-width:991px) {
+    .img-services-bg {
+        position: relative;
+        width: 100%;
+        display: flex;
+        background-image: url("./img/gallery/gallery05.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
 }
 
-.img-services-bg::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0.6);
+@media (max-width:991px) {
+    .img-services-bg::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .img-services-bg {
+        position: relative;
+        width: 100%;
+        display: flex;
+        background-image: url("./img/gallery/gallery05.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .img-services-bg::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 /* lighbox css code */
